@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Predict Fraud</title>
+    <style>
+        body {
+            background-color: #b3e5ff;
+            font-family: Arial;
+        }
+        .form-box {
+            width: 400px;
+            margin: auto;
+            padding: 30px;
+            background: white;
+            border-radius: 10px;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #2c7be5;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<h2 style="text-align:center;">Online Payments Fraud Detection</h2>
+
+<div class="form-box">
+    <form action="/submit" method="post">
+        <input type="text" name="step" placeholder="Step" required>
+        <input type="text" name="type" placeholder="Type (encoded)" required>
+        <input type="text" name="amount" placeholder="Amount" required>
+        <input type="text" name="oldbalanceOrg" placeholder="Old Balance Origin" required>
+        <input type="text" name="newbalanceOrig" placeholder="New Balance Origin" required>
+        <input type="text" name="oldbalanceDest" placeholder="Old Balance Destination" required>
+        <input type="text" name="newbalanceDest" placeholder="New Balance Destination" required>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+</body>
+</html>
