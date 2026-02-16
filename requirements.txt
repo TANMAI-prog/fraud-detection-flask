@@ -23,7 +23,7 @@ grpcio==1.76.0
 h5py==3.15.1
 idna==3.11
 ipykernel==7.1.0
-ipython==9.9.0
+ipython==8.38.0
 ipython_pygments_lexers==1.1.1
 itsdangerous==2.2.0
 jedi==0.19.2
@@ -90,4 +90,5 @@ wcwidth==0.2.14
 Werkzeug==3.1.4
 wrapt==2.0.1
 xgboost==3.1.3
+
 
